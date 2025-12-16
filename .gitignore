@@ -1,0 +1,36 @@
+# Environment files with sensitive data
+.env
+.env.primary
+.env.standby
+.env.local
+.env.*.local
+
+# PostgreSQL data directory (if accidentally added)
+/ora/
+
+# Docker volumes
+docker-volumes/
+
+# Backup files
+*.backup
+*.bak
+*.sql.gz
+
+# Log files
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
